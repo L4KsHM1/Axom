@@ -136,7 +136,7 @@ img {
   align-items: center;
   padding-left: 4rem;
   padding-right: 4rem;
-  margin-bottom: 3.5rem;
+  margin: 2.5rem 0;
 }
 .members {
   display: flex;
@@ -146,6 +146,8 @@ img {
 }
 .member-img {
   height: 200px;
+  width: 200px;
+  object-fit: cover;
 }
 .bottom > h2 {
   display: flex;
@@ -182,6 +184,7 @@ img {
   display: grid;
   gap: 2.5rem;
   grid-template-columns: 50% 50%;
+  margin-bottom: 3rem;
 }
 
 .faq h2 {

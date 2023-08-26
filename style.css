@@ -119,6 +119,7 @@ img {
 }
 .serve {
   border-bottom: 4px solid white;
+  transition: all 0.5s;
 }
 .serve:hover {
   border-bottom: 4px solid #9473f6;

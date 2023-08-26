@@ -27,7 +27,7 @@ button:hover {
   text-align: center;
 }
 .text-gray {
-  color: #5a5252;
+  color: gray;
 }
 #app {
   margin: 0 5rem;

@@ -194,3 +194,50 @@ footer {
 footer a {
   color: #fff;
 }
+@media (max-width: 769px) {
+  .navbar {
+    display: none;
+  }
+  .banner {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+  }
+  .banner img {
+    width: 100%;
+  }
+  .section-bottom {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+  }
+  .section-bottom img {
+    width: 100%;
+  }
+  .service-sec {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+  }
+  .service-sec img {
+    width: 100%;
+  }
+  .team-member {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .members {
+    align-items: center;
+  }
+  .faq {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+  }
+}

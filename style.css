@@ -236,8 +236,9 @@ footer a {
     justify-content: center;
     padding: 1rem;
   }
-  .service-sec img {
+  .service-img {
     width: 100%;
+    height: auto;
   }
   .team-member {
     display: flex;
@@ -253,5 +254,9 @@ footer a {
     flex-direction: column;
     margin-right: 1rem;
     margin-left: 1rem;
+  }
+  .footer {
+    margin-right: -1rem;
+    margin-left: -1rem;
   }
 }
